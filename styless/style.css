@@ -16,7 +16,7 @@
 /* shared width */
  .widht{
   max-width: 1150px;
-  margin: 20px auto;
+  margin: 0 auto;
  }
 
 /* Shared display */
@@ -26,6 +26,7 @@
 .navbar{
   justify-content: space-between;
   align-items: center;
+  padding: 40px;
 }
 div input{
  width: 500px;
@@ -40,4 +41,46 @@ div input{
   text-decoration: none;
   color: #707070;
   font-size: 16px;
+  font-weight: 400;
  }
+ 
+ /* Banner Design */
+ .banner{
+  background-color: #FEEAE9;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  border-radius: 20px;
+ }
+ .banner_h1{
+  font-size: 3.2rem;  
+ }
+ .banner_p{
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+}
+.banner_span{
+  color: #FF136F;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 20px;
+  display: block;
+}
+.banner_button{
+  background: linear-gradient(180deg,rgb(255, 88, 155) -0.006%,
+  rgb(255, 19,111) 99.994%
+  );
+  padding: 10px 40px;
+  border: none;
+  font-size: 16;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: -15px;
+ }
+ .banner img{
+  width: 402px;
+  height: 378px;
+ }
+ 
